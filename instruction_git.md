@@ -19,3 +19,44 @@ Git  - это программа для отслеживания и ведени
 Для того, чтобы  добавить изменение к отслеживанию (в "индекс"), нужно  выполнить  команду:
 
     git add <filename>
+
+## Работа  с командой "git commit".
+
+* Для открытия редактора, необходимо  использовать команду: 
+
+                     git commit
+
+* Для сохранения данных в репозиторий необходимо использовать команду:
+
+                 commit -m "message"
+
+* Для  коммита  и  автоматиеского  сохранения (add) используем команду:  
+
+                     git commit -a 
+
+* Для  того, чтобы  не делать  отдельно  "add" и  далее "commit" используем команду:
+
+                git commit-am "messade"
+*Данная  команда позволяет  добавить  изменения  и  сохранить  изменения в репозиторий  с комментарием.*
+
+
+
+
+
+
+
+
+Home work:
+      git init
+    git commit
+    git commit -m "messege"
+    git commit -a
+    git commit -am "messege"
+    git log
+    git log --oneline
+    git log --all
+    git log --oneline --all
+    git checkout <hash>
+    git diff 
+    git diff <hash1> <hash2>
+     
