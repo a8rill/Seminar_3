@@ -75,19 +75,3 @@ Git  - это программа для отслеживания и ведени
 
                         git diff <hash1> <hash2>
 
-
-
-Home work:
-      git init
-    git commit
-    git commit -m "messege"
-    git commit -a
-    git commit -am "messege"
-    git log
-    git log --oneline
-    git log --all
-    git log --oneline --all
-    git checkout <hash>
-    git diff 
-    git diff <hash1> <hash2>
-     
